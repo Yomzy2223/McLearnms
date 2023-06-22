@@ -34,7 +34,7 @@ const ConnectSection = () => {
             />
           </ConnectLeft>
           <ConnectRight>
-            <Image src={ConnectImage} />
+            <Image src={ConnectImage} alt="" />
           </ConnectRight>
         </ConnectWrapper>
       </SectionContainer>

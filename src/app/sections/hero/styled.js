@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import circle from "../../../assets/svgs/hero_circle.svg";
 
 export const HeroWrapper = styled.div`
   display: flex;
@@ -16,7 +15,6 @@ export const HeroLeft = styled.div`
   gap: clamp(32px, 4vw, 64px);
 
   width: 53%;
-  background: url("../../../assets/svgs/hero_circle.svg");
 
   @media screen and (max-width: 650px) {
     width: 100%;

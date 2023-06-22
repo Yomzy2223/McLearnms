@@ -37,23 +37,23 @@ const MainFooter = () => {
       <FooterContent>
         <FooterLeft>
           <Title>
-            <Image src={BookOpenWhite} /> McLearnms
+            <Image src={BookOpenWhite} alt="" /> McLearnms
           </Title>
           <Info>
             Transform your Institution into a Digital Powerhouse with Mclearnms
           </Info>
           <Connect>
             <p>Connect with us on social media</p>
-            <Image src={SocialMediaIcons} />
+            <Image src={SocialMediaIcons} alt="" />
           </Connect>
         </FooterLeft>
         <FooterRight>
-          {list.map((el) => (
-            <EachList>
+          {list.map((el, ind) => (
+            <EachList key={ind}>
               <EachListTitle>{el.title}</EachListTitle>
               <EachListBody>
-                {el.body.map((each) => (
-                  <li>{each}</li>
+                {el.body.map((each, i) => (
+                  <li key={i}>{each}</li>
                 ))}
               </EachListBody>
             </EachList>

@@ -26,6 +26,7 @@ export const Logo = styled.div`
 
   img {
     width: clamp(24px, 3vw, 40px);
+    height: auto;
   }
 
   @media and (max-width: 400px) {

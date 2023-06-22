@@ -18,7 +18,7 @@ const Footer = () => {
             </Button>
           </Body>
         </SectionContainer>
-        <Image src={footerImg} />
+        <Image src={footerImg} alt="" />
       </SectionWrapper>
       <MainFooter />
     </FooterWrapper>

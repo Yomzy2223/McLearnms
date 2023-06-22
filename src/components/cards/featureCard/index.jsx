@@ -6,7 +6,7 @@ const FeatureCard = ({ title, description, image }) => {
   return (
     <CardWrapper className="interactive__click">
       <Left>
-        <Image src={image} />
+        <Image src={image} alt="" />
       </Left>
       <Right>
         <Title>{title}</Title>

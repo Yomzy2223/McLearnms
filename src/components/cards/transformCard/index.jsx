@@ -28,11 +28,11 @@ const TransformCard = ({
         <Title>{title}</Title>
         <Description>{description}</Description>
         <MobileImage>
-          <Image src={mobileImage} />
+          <Image src={mobileImage} alt="" />
         </MobileImage>
         <Info>
-          {info.map((el) => (
-            <EachInfo>{el}</EachInfo>
+          {info.map((el, i) => (
+            <EachInfo key={i}>{el}</EachInfo>
           ))}
         </Info>
         <More>
@@ -42,7 +42,7 @@ const TransformCard = ({
 
       <Right>
         <DesktopImage>
-          <Image src={image} />
+          <Image src={image} alt="" />
         </DesktopImage>
       </Right>
     </CardWrapper>

@@ -18,6 +18,7 @@ export const CardWrapper = styled.div`
 export const Left = styled.div`
   img {
     width: clamp(32px, 4vw, 56px);
+    height: auto;
   }
 `;
 

@@ -40,7 +40,7 @@ const Hero = () => {
         <Count left />
       </HeroLeft>
       <HeroRight>
-        <Image src={LaptopLady} />
+        <Image src={LaptopLady} alt="" />
         <Count right />
       </HeroRight>
     </HeroWrapper>

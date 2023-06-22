@@ -59,7 +59,7 @@ const TestimonialSection = () => {
         top="Testimonials"
         title="See how you are making difference"
       >
-        <Image src={Stroke} />
+        <Image src={Stroke} alt="" />
         <Carousel
           ssr
           //   partialVisbile
